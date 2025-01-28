@@ -1,0 +1,49 @@
+.sidebarMenu {
+  color: #f0f0f0; /* Світлий текст */
+  padding: 15px;
+  width: 300px;
+  height: 100vh;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #f0f0f0;
+  transition: background-color 0.3s;
+}
+
+.item {
+  background-color: transparent;
+}
+
+.menuItem:hover {
+  background-color: #333; /* Темне підсвічування при наведенні */
+  border-radius: 15px;
+}
+
+.icon {
+  margin-right: 10px;
+  color: #f0f0f0;
+  font-size: 20px;
+}
+
+.subMenuList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0 15px;
+}
+
+.subMenuItem {
+  padding: 10px 30px;
+  cursor: pointer;
+  color: #ccc;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.subMenuItem:hover {
+  background-color: #444; /* Темне підсвічування підменю */
+  color: #f0f0f0;
+  border-radius: 15px;
+}
